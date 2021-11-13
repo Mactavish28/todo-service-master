@@ -1,0 +1,15 @@
+<h1>TODO DETAILS</h1>
+<table border="5">
+<thead>
+  <tr>
+    <th>NAME</th>
+    <th>ID</th>
+    <th>DEPT</th>
+  </tr>
+  </thead>
+  <tr *ngFor="let item of employees">
+    <td>{{item.name}}</td>
+    <td>{{item.id}}</td>
+    <td>{{item.dept}}</td>
+  </tr>
+</table>
